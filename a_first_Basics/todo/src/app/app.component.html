@@ -1,0 +1,21 @@
+<!-- <div class="counter-box">
+  <h1>Counter</h1>
+  <div id="value">{{cnt}}</div>
+<div class="btn">
+  <button (click)="counter()">+</button>
+  <button (click)="decrement()">-</button>
+  <input type="text" placeholder="enter here something" [value]="inputValue" (input)="inputValue = $any($event.target).value">
+  <p>{{inputValue}}</p>
+
+  <ul>
+    <li *ngFor="let f of fruits; index as i"><h2>{{i+1}} {{f}}</h2></li>
+  </ul>
+</div>
+</div> -->
+
+
+
+<!-- now we are going to learn about how to pass the data from parent to chlid -->
+
+<app-user name="raj ranjan srivastav"></app-user>
+<app-user name="rohan" (myEvent)="receiveData($event)"></app-user>

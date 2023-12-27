@@ -1,0 +1,25 @@
+.counter-box{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#value{
+    font-size: 2vw;
+}
+
+.btn button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 2rem;
+    font-size: 1.8vw;
+    border: none;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgb(35, 35, 35);
+}
