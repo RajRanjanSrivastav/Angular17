@@ -1,0 +1,24 @@
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2.5rem;
+  padding-left: 11px;
+}
+.list ul {
+  display: flex;
+  justify-content: space-around;
+}
+.list ul li {
+  list-style: none;
+}
+.list ul li a {
+  font-size: 1.5rem;
+  padding: 0 11px;
+  color: white;
+  text-decoration: none;
+}

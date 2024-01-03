@@ -1,0 +1,14 @@
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    text-align: center;
+    font-size: 8rem;
+  }
+  .text p{
+      margin: 0;
+  }
+  
