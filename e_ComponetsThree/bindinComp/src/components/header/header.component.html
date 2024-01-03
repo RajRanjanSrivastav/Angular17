@@ -8,4 +8,11 @@
       <li><a [routerLink]="'contact'">Contact us</a></li>
     </ul>
   </div>
+  <div class="menu">
+    <p (click)="show()">menu</p>
+  </div>
+
+  <ul class="menuList" *ngIf="flag">
+    <li *ngFor="let f of track">{{ f.id }}</li>
+  </ul>
 </div>

@@ -1,22 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { environment } from '../../environments/environment.development';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class StationsService {
-  apiEndPoint:string = '';
 
-  constructor(private http:HttpClient) {
-  
-   }
+  constructor(private http: HttpClient) {}
 
-   fetechData(){
-    this.http.get(`https://dummyjson.com/products/1`)
-    .subscribe(data=>{
-      console.log(data);
-      
-    })
-   }
+  getData() {
+    return this.http.get('https://jsonplaceholder.typicode.com/users');
+  }
 }
