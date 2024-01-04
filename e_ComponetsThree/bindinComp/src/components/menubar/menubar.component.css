@@ -1,0 +1,44 @@
+.menu{
+  background-color: black;  
+  position: relative;
+}
+.menu p{
+    font-size: 1.5rem;
+    color: white;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.list{
+    position: absolute;
+    top: 50px;
+    background-color: rgb(26, 26, 26);
+    padding: 5px;
+    margin: 0;
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-size: 1.3rem;
+}
+.list li a:hover{
+    color: bisque;
+}
+
+.menu-li{
+    border: 2px solid red;
+    position: relative;
+}
+.subMenu{
+    position: absolute;
+    background-color: red;
+    padding: 4px;
+    margin: 0;
+    top: 4px;
+    left: 6rem;
+}

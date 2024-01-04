@@ -1,0 +1,16 @@
+<div class="menu" (click)="chek()">
+  <p>Menu</p>
+
+  <!-- sub menu -->
+  <ul class="list">
+    <li class="menu-li" *ngFor="let f of list; index as i">
+      <a (click)="trak($event, i)" href="">{{ f.name }} {{ i }}</a>
+    </li>
+
+    <ul *ngIf="flag" class="subMenu">
+      <li *ngFor="let f of list[j].arr">
+        <a href="">{{ f }}</a>
+      </li>
+    </ul>
+  </ul>
+</div>
